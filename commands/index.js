@@ -4,7 +4,7 @@ module.exports = {
 	Help: require('./help'),
 	Commands: require('./commands'),
 	Add: require("./add"),
-	Sub: require("./sub"),
-	Div: require("./div"),
-	Mul: require("./mul"),
+	Sub: require("./substract"),
+	Div: require("./divide"),
+	Mul: require("./multiply"),
 };
