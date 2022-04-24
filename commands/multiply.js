@@ -14,6 +14,6 @@ module.exports = {
         var a = parseInt(args[0])
         var b = parseInt(args[1])
 
-        msg.reply(`Sum of two numbers is ${a * b}`)
+        msg.reply(`Mulitplication of two numbers is ${a * b}`)
 	},
 };
