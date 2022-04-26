@@ -7,4 +7,5 @@ module.exports = {
 	Sub: require("./substract"),
 	Div: require("./divide"),
 	Mul: require("./multiply"),
+	Greetings:require('./greetings'),
 };

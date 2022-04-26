@@ -11,9 +11,11 @@ module.exports = {
 		// const now = Date.now();
 		// const duration = (now - msg.createdTimestamp) / 1000;
 		// msg.reply(`Pong! Time needed: ${duration.toFixed(3)}s`);
-        var a = parseInt(args[0])
-        var b = parseInt(args[1])
-
+        var a = parseInt(args[0]);
+        var b = parseInt(args[1]);
+		if(args.lenght < 2){
+			return msg.reply("You didnt provide 2 arguments");
+		}
         msg.reply(`Sum of two numbers is ${a + b}`)
 	},
 };

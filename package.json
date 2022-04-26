@@ -11,6 +11,7 @@
   "author": "Suad Suljovic",
   "license": "ISC",
   "dependencies": {
+    "date-fns": "^2.28.0",
     "discord.js": "^12.5.1",
     "dotenv": "^8.2.0",
     "eslint": "^7.18.0"
