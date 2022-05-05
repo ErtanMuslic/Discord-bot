@@ -8,4 +8,5 @@ module.exports = {
 	Div: require("./divide"),
 	Mul: require("./multiply"),
 	Greetings:require('./greetings'),
+	Guess : require("./guess"),
 };
