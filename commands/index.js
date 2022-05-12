@@ -9,4 +9,5 @@ module.exports = {
 	Mul: require("./multiply"),
 	Greetings:require('./greetings'),
 	Guess : require("./guess"),
+	Quote : require("/.quote"),
 };
